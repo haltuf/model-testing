@@ -11,7 +11,7 @@ trait ConnectionHelper
 {
 	private $dsn = 'mysql:host=127.0.0.1;dbname=mt_test';
 	private $user = 'travis';
-	private $password = 'rejpal';
+	private $password = '';
 
 	public function getConnection(): Connection
 	{
