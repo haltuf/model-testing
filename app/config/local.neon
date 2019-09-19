@@ -1,0 +1,7 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=rejpal;dbname=mt_live'
+	user: mt_user
+	password: mt_password
