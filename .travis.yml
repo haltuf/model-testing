@@ -7,7 +7,7 @@ services:
     - mysql
 
 before_install:
-    - mysql -e "CREATE DATABASE `mt_test` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;"
+    - mysql -e 'CREATE DATABASE mt_test DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;'
     - composer self-update
 
 install:
